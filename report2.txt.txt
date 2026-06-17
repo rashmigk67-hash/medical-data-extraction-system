@@ -1,0 +1,6 @@
+Patient Name: Sarah Smith
+Age: 30
+Gender: Female
+Disease: Asthma
+Medicine: Inhaler
+Doctor: Dr. Wilson

@@ -1,0 +1,6 @@
+Patient Name: John Doe
+Age: 45
+Gender: Male
+Disease: Diabetes
+Medicine: Metformin
+Doctor: Dr. Smith
