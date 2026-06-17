@@ -1,90 +1,45 @@
-Medical Data Extraction and Analysis System
+# Medical Data Extraction and Analysis System
 
+## Project Overview
 
+This project extracts patient information from medical reports using Python Regular Expressions (Regex), stores the extracted data in CSV format, and performs healthcare data analysis.
 
-Overview
+## Features
 
+- Extract patient details from text reports
+- Process multiple medical records
+- Generate structured CSV output
+- Disease frequency analysis
+- Patient statistics generation
+- Disease distribution visualization
 
+## Technologies Used
 
-A Python-based healthcare analytics project that extracts patient information from unstructured medical reports using Regular Expressions (Regex), stores the extracted data in CSV format, and performs disease analysis with visualizations.
+- Python
+- Pandas
+- Regular Expressions (Regex)
+- Matplotlib
 
+## Project Structure
 
-
-Features
-
-
-
-\- Extract patient details from medical reports
-
-\- Process multiple report files automatically
-
-\- Generate structured CSV data
-
-\- Analyze disease distribution
-
-\- Calculate patient statistics
-
-\- Visualize data using charts
-
-
-
-Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- Regular Expressions (Regex)
-
-\- Matplotlib
-
-
-
-Project Structure
-
-
-
-MedicalDataExtraction/
-
-
-
+medical-data-extraction-system/
+│
 ├── reports/
-
-
-
 ├── output/
-
-
-
 ├── extractor.py
-
-
-
 ├── analyzer.py
-
-
-
 ├── requirements.txt
-
-
-
 └── README.md
 
+## Output
 
+- Extracted patient dataset in CSV format
+- Disease distribution chart
+- Patient statistics
 
-How to Run
+## Future Improvements
 
-
-
-pip install -r requirements.txt
-
-
-
-python extractor.py
-
-
-
-python analyzer.py
-
+- PDF medical report extraction
+- OCR support
+- Interactive dashboard
+- Disease prediction using Machine Learning
